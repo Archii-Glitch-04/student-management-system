@@ -1,12 +1,38 @@
-# React + Vite
+# Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple Student Management System implemented using React. It allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Register student details (First Name, Last Name, Roll No, Password, Contact Number).
+- View all students in a table format.
+- Update a student's contact number based on their Roll No.
+- Delete a student's record based on their Roll No.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Register a student:** Add new student details.
+- **Delete a student:** Remove a student by their Roll No.
+- **Update a student's contact number:** Modify contact details using Roll No.
+- **View records:** Display student details in a tabular format.
+
+## Tech Stack
+
+- **Frontend:** React
+- **CSS:** For styling the app.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- Node.js
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/student-management-system.git
+   ```
