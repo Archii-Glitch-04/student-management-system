@@ -25,14 +25,7 @@ This is a simple Student Management System implemented using React. It allows us
 
 ### Prerequisites
 
-Make sure you have the following installed on your machine:
+Make sure to have the following installed on your machine:
 
 - Node.js
 - npm (Node Package Manager)
-
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/student-management-system.git
-   ```
